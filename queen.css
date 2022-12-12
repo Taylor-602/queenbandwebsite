@@ -139,9 +139,13 @@ p {
   height: 192px;
 }
 
+#article {
+  height: 1470px;
+  width: 2600px;
+}
+
 #icons {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
 }
 
 #amazon {
@@ -204,10 +208,6 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    background-color: lightgreen;
-  }
-
   .mobile {
     display: block;
   }
@@ -222,11 +222,30 @@ p {
     width: auto;
   }
 
+  #article {
+    width: 865px;
+    height: auto;
+  }
+
+  #facebook,
+  #instagram,
+  #apple,
+  #youtube,
+  #spotify,
+  #amazon {
+    width: 75px;
+    height: auto;
+  }
+
   .linki1,
   .linki {
-    font-size: 20px;
-    margin: 0%;
+    font-size: 15px;
+    flex-direction: row;
     column-rule: column;
+    display: inline-block;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0%;
   }
   .h1title,
   .h1titlew {
@@ -238,7 +257,6 @@ p {
     font-size: 25px;
   }
 
-  h3,
   .h3d,
   .h3t,
   .h3i {
@@ -259,6 +277,11 @@ p {
     height: 135px;
     width: auto;
     margin-left: 30%;
+  }
+
+  #lineup {
+    width: 85%;
+    height: auto;
   }
 
   .columns-2 {
